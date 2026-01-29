@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+
+# Env files
+.env
+.env.local
+config.env
+
+# Firebase
+serviceAccountKey.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
