@@ -73,3 +73,23 @@ This project was developed as a **Final Year Capstone Project**.
 - CORS
 
 ---
+
+## Backend Setup
+cd backend
+npm install
+cp config.env.example config.env
+node index.js
+Backend runs on: http://localhost:5000
+
+---
+
+## frontend Setup
+cd frontend
+npm install
+cp .env.example .env
+npx expo start
+Run using Expo Go app or emulator.
+
+---
+
+
