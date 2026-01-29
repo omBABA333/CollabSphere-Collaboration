@@ -16,9 +16,9 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDsIBomTZTwqPkS4K6XO6pDG06qIyt3MkU",
-  authDomain: "collabsphere-b7e3e.firebaseapp.com",
-  projectId: "collabsphere-b7e3e",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain:process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId:  process.env.REACT_APP_FIREBASE_PROJECT_ID,
   storageBucket: "collabsphere-b7e3e.firebasestorage.app",
   messagingSenderId: "194164839551",
   appId: "1:194164839551:web:b63c5ae406f4a4cdcf1b4a"
